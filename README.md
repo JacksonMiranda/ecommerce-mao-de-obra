@@ -31,15 +31,25 @@ cd nome-do-diretorio
 ## Estrutura de Diretórios
 
 /nome-do-projeto
+
 ├── index.html # Página principal
+
 ├── contract.html # Página de contratação e pagamento
+
 ├── css/
+
 │ └── styles.css # Folhas de estilo
+
 ├── js/
+
 │ ├── script.js # Scripts de interatividade
+
 │ └── payment.js # Scripts para pagamento
+
 ├── img/
+
 │ └── logo.png # Imagens utilizadas
+
 └── README.md
 
 ## Contribuições

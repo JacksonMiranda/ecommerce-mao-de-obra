@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff; /* Azul escuro */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header .logo img {
+    height: 80px; /* Tamanho aumentado para melhor visibilidade */
+    width: auto;  /* Mantém a proporção da imagem */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main {
+    padding: 20px;
+    text-align: center;
+}
+
+.banner {
+    background-color: #0056b3; /* Tom mais escuro de azul */
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.category {
+    background: #ffffff;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+body::after {
+    content: "Empresa de Engenharia";
+    position: fixed;
+    bottom: 40px;  
+    right: 10px;
+    font-size: 20px;
+    color: #CCCCCC;  
+    opacity: 0.5;
+    z-index: 50;  
+    pointer-events: none;
+}
+
+.button {
+    background-color: #009688; /* Azul esverdeado para botões */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase; /* Estilo mais formal */
+}
+
+.button:hover {
+    background-color: #007bff;
+}

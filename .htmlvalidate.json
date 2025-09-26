@@ -1,0 +1,20 @@
+{
+  "extends": ["html-validate:recommended"],
+  "rules": {
+    "void-style": ["error", {"style": "omit"}],
+    "close-attr": "error",
+    "close-order": "error",
+    "doctype-html": "error",
+    "element-case": "error",
+    "no-deprecated-attr": "error",
+    "no-dup-attr": "error",
+    "no-dup-class": "error",
+    "no-dup-id": "error",
+    "no-missing-references": "error",    
+    "no-style-tag": "off",
+    "no-trailing-whitespace": "error",
+    "no-unknown-elements": "error",
+    "prefer-button": "error",
+    "require-sri": "off"
+  }
+}

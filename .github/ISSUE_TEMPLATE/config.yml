@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussões / Discussions
+    url: https://github.com/JacksonMiranda/ecommerce-mao-de-obra/discussions
+    about: Para perguntas gerais e discussões sobre o projeto / For general questions and project discussions
+  - name: 📧 Contato Direto / Direct Contact
+    url: mailto:jackson.j.m@hotmail.com
+    about: Para questões urgentes ou privadas / For urgent or private matters
+  - name: 🔒 Vulnerabilidade de Segurança / Security Vulnerability
+    url: mailto:jackson.j.m@hotmail.com?subject=SECURITY
+    about: Para reportar problemas de segurança / To report security issues

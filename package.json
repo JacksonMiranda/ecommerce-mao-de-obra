@@ -1,0 +1,50 @@
+{
+  "name": "ecommerce-mao-de-obra",
+  "version": "1.0.0",
+  "description": "E-commerce platform for hiring skilled labor with integrated payment system",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx http-server . -p 3000 -o --cors",
+    "build": "echo 'Static site - no build process required'",
+    "test": "npx html-validate *.html && npx stylelint css/**/*.css && npx eslint js/**/*.js",
+    "lint": "npx eslint js/**/*.js --fix && npx stylelint css/**/*.css --fix",
+    "lint:html": "npx html-validate *.html",
+    "lint:css": "npx stylelint css/**/*.css",
+    "lint:js": "npx eslint js/**/*.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "labor",
+    "construction",
+    "payment",
+    "paypal",
+    "hiring",
+    "workers"
+  ],
+  "author": {
+    "name": "Jackson J. Miranda",
+    "email": "jackson.j.m@hotmail.com",
+    "url": "https://www.linkedin.com/in/jacksonmiranda/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/JacksonMiranda/ecommerce-mao-de-obra#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacksonMiranda/ecommerce-mao-de-obra.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JacksonMiranda/ecommerce-mao-de-obra/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "html-validate": "^8.0.0",
+    "http-server": "^14.0.0",
+    "stylelint": "^15.0.0",
+    "stylelint-config-standard": "^34.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

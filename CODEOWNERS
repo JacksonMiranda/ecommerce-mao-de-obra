@@ -1,0 +1,21 @@
+# Global Owners
+* @JacksonMiranda
+
+# Documentation
+*.md @JacksonMiranda
+docs/ @JacksonMiranda
+
+# Frontend Assets
+*.html @JacksonMiranda
+*.css @JacksonMiranda
+*.js @JacksonMiranda
+img/ @JacksonMiranda
+
+# Configuration Files
+package*.json @JacksonMiranda
+.*config* @JacksonMiranda
+.github/ @JacksonMiranda
+
+# Security Related
+SECURITY.md @JacksonMiranda
+CODE_OF_CONDUCT.md @JacksonMiranda

@@ -1,0 +1,137 @@
+name: 🐛 Relatório de Bug / Bug Report
+description: Reportar um problema ou erro no sistema
+title: '[BUG] '
+labels: ['bug', 'needs-triage']
+assignees: ['JacksonMiranda']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar um bug! Por favor, preencha as informações abaixo para nos ajudar a resolver o problema.
+        
+        Thank you for reporting a bug! Please fill in the information below to help us resolve the issue.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Descrição do Problema / Problem Description
+      description: Descreva claramente o que está acontecendo / Clearly describe what is happening
+      placeholder: Descreva o bug de forma clara e concisa / Describe the bug clearly and concisely
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔄 Passos para Reproduzir / Steps to Reproduce
+      description: Como podemos reproduzir este problema? / How can we reproduce this issue?
+      placeholder: |
+        1. Vá para...
+        2. Clique em...
+        3. Veja o erro...
+        
+        1. Go to...
+        2. Click on...
+        3. See error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Comportamento Esperado / Expected Behavior
+      description: O que deveria acontecer? / What should happen?
+      placeholder: Descreva o que você esperava que acontecesse / Describe what you expected to happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Comportamento Atual / Actual Behavior
+      description: O que realmente aconteceu? / What actually happened?
+      placeholder: Descreva o que realmente aconteceu / Describe what actually happened
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 🌐 Navegador / Browser
+      description: Qual navegador você está usando? / Which browser are you using?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Opera
+        - Outro / Other
+    validations:
+      required: true
+
+  - type: input
+    id: browser-version
+    attributes:
+      label: 📊 Versão do Navegador / Browser Version
+      description: Qual versão do navegador? / Which browser version?
+      placeholder: ex: Chrome 120, Firefox 115, etc.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: 💻 Sistema Operacional / Operating System
+      description: Qual sistema operacional? / Which operating system?
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS
+        - Ubuntu
+        - Outro Linux / Other Linux
+        - iOS
+        - Android
+        - Outro / Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: 📱 Tipo de Dispositivo / Device Type
+      description: Que tipo de dispositivo? / What type of device?
+      options:
+        - Desktop
+        - Laptop
+        - Smartphone
+        - Tablet
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📸 Screenshots
+      description: Se aplicável, adicione screenshots para ajudar a explicar o problema / If applicable, add screenshots to help explain the problem
+      placeholder: Cole imagens aqui ou descreva o que você vê / Paste images here or describe what you see
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📋 Informações Adicionais / Additional Information
+      description: Adicione qualquer outra informação relevante / Add any other relevant information
+      placeholder: Qualquer contexto adicional sobre o problema / Any additional context about the problem
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ✅ Checklist
+      description: Confirme que você verificou o seguinte / Confirm that you have checked the following
+      options:
+        - label: Eu procurei por issues similares / I searched for similar issues
+          required: true
+        - label: Eu li a documentação / I read the documentation
+          required: true
+        - label: Este é um problema reproduzível / This is a reproducible issue
+          required: true

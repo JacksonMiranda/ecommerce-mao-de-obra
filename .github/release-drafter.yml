@@ -1,0 +1,91 @@
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+
+categories:
+  - title: '🚀 Features / Funcionalidades'
+    labels:
+      - 'feature'
+      - 'enhancement'
+  - title: '🐛 Bug Fixes / Correções'
+    labels:
+      - 'fix'
+      - 'bugfix'
+      - 'bug'
+  - title: '🔒 Security / Segurança'
+    labels:
+      - 'security'
+  - title: '📝 Documentation / Documentação'
+    labels:
+      - 'documentation'
+      - 'docs'
+  - title: '🧹 Maintenance / Manutenção'
+    labels:
+      - 'chore'
+      - 'dependencies'
+  - title: '⚡ Performance / Performance'
+    labels:
+      - 'performance'
+  - title: '♿ Accessibility / Acessibilidade'
+    labels:
+      - 'accessibility'
+      - 'a11y'
+
+version-resolver:
+  major:
+    labels:
+      - 'breaking-change'
+      - 'major'
+  minor:
+    labels:
+      - 'feature'
+      - 'enhancement'
+      - 'minor'
+  patch:
+    labels:
+      - 'fix'
+      - 'bugfix'
+      - 'bug'
+      - 'patch'
+      - 'chore'
+      - 'dependencies'
+      - 'documentation'
+      - 'docs'
+
+template: |
+  ## What's Changed / O que Mudou
+
+  $CHANGES
+
+  ## New Contributors / Novos Contribuidores
+
+  $CONTRIBUTORS
+
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
+
+  ---
+
+  ### 🚀 Como Usar / How to Use
+
+  #### Para Desenvolvimento / For Development
+  ```bash
+  git clone https://github.com/JacksonMiranda/ecommerce-mao-de-obra.git
+  cd ecommerce-mao-de-obra
+  npm install
+  npm start
+  ```
+
+  #### Scripts Disponíveis / Available Scripts
+  - `npm start` - Inicia servidor de desenvolvimento / Start development server
+  - `npm test` - Executa testes / Run tests
+  - `npm run lint` - Executa linting / Run linting
+  - `npm run build` - Build para produção / Build for production
+
+  ### 📋 Requisitos do Sistema / System Requirements
+  - Node.js >= 18.0.0
+  - NPM >= 8.0.0
+  - Navegador moderno / Modern browser
+
+  ### 🤝 Contribuindo / Contributing
+  Leia nosso [guia de contribuição](CONTRIBUTING.md) para saber como contribuir com o projeto.
+  
+  Read our [contributing guide](CONTRIBUTING.md) to learn how to contribute to the project.
